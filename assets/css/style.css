@@ -11,14 +11,14 @@ body{
 .container{
   width:100vw;
   height:100vh;
-  background-color:dodgerblue;
+  background-color:mediumpurple;
   padding:1rem;
 }
 
 .row{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .col{
@@ -38,6 +38,21 @@ ul{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: red;
   border:1 px solid black;
+}
+
+.style1{
+  background-color:bisque;
+}
+
+.style2{
+  background-color:deepskyblue;
+}
+
+.style3{
+  background-color:tan;
+}
+
+.style4{
+  background-color:turquoise;
 }
