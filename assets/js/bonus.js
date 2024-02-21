@@ -5,9 +5,9 @@ for(let x = 1; x < 101; x++){
 
   /* controlla fizz e buzz attraverso il remainder */
   if(x % 3 == 0 && x % 5 == 0){
-    myItem = "FizzBuzz";
-    let listItem = document.createElement("li");
-    fizzbuzzList.append(li);
+    const listItem = document.createElement('li')
+    listItem = `<li class="box">${myItem}</li>`
+    /* myItem = "FizzBuzz"; */
   }
   else if(x % 3 == 0){
     myItem = "Fizz";
@@ -25,13 +25,7 @@ for(let x = 1; x < 101; x++){
   fizzbuzzList.innerHTML += markupListItem; */
 
   /* bonus */
-  const markupListItemStyle = `<li class="box">${myItem}</li>`;
-  /* fizzbuzzList.innerHTML += markupListItemStyle; */
+  /* const markupListItemStyle = `<li class="box">${myItem}</li>`;
+  fizzbuzzList.innerHTML += markupListItemStyle; */
 
-  fizzbuzzList.append(markupListItemStyle);
 }
-
-
-
-
-
