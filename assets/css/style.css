@@ -6,6 +6,9 @@
 
 body{
   overflow: hidden;
+  h1{
+    color:white;
+  }
 }
 
 .container{
@@ -18,7 +21,6 @@ body{
 .row{
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
 }
 
 .col{
