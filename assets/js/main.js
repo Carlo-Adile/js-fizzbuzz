@@ -35,15 +35,4 @@ for(let x = 1; x < 101; x++){
 
 
 
-/* 
-listItem.classList.add('box');
- */
 
-/* 
-let div = document.createElement("div");
-let p = document.createElement("p");
-div.append(p);
-
-console.log(div.childNodes); // NodeList [ <p> ]
-
-*/
